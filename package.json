@@ -1,0 +1,12 @@
+{
+  "name": "framework-energiativa",
+  "version": "1.10004.0",
+  "description": "Energia Wiring-based Framework for Texas Instruments TIVA C Series",
+  "keywords": [
+    "framework",
+    "wiring",
+    "texas instruments",
+    "tiva c"
+  ],
+  "homepage": "http://energia.nu/reference/"
+}
