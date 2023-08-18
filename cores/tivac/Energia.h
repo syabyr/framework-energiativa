@@ -21,7 +21,9 @@
 #define TARGET_IS_BLIZZARD_RB1
 #if defined(__LM4F120H5QR__) || defined(__TM4C123GH6PM__)
 #define PART_TM4C123GH6PM
-#define PART_LM4F120H5QR
+#ifndef PART_LM4F120H5QR
+  #define PART_LM4F120H5QR
+#endif
 #else
 #define PART_TM4C123GH6ZRB
 #endif
